@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Charger le fichier CSS généré par Vite -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
     <title>{{ 'Jean Michel' }} @yield('title')</title>
 </head>
 
